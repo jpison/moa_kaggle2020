@@ -1,4 +1,4 @@
-# moa_kaggle2020
+# moa_kaggle2020: weithed blending of three models to obtain position 20th (20/4373)
 In this competition, many people trained their models with `SmoothBCEwLogits(smoothing =1E-3)` (or with other similar smoothing values).
 
 I did that and, I think, **it was one of my biggest mistakes!**. 
