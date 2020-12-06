@@ -23,6 +23,6 @@ The next figure shows my best three models (ANN, RESNET and TABNET) trained with
 
 The weighted blending of the three models with smooth=1E-3 gave me 0.01614 but **I could have obtained 0.01609 without smoothing**.
 
-My second and best submission was using the best model's parameters with @Chris code but trained with the original random stratified CV (the old CV).  In other to combine the models, I used the same weights that minimized the CV in @Chris validation code. **This weighted blending gave me my best Private LB (0.01612) but, without smoothing, I could have obtained 0.01607**, close to the gold zone.
+My second and best submission (position 135/4373 teams) was using the best model's parameters with @Chris code but trained with the original random stratified CV (the old CV).  In other to combine the models, I used the same weights that minimized the CV in @Chris validation code. **This weighted blending gave me my best Private LB (0.01612) but, without smoothing, I could have obtained 0.01607**, close to the gold zone. (position 20/4373)
 
 ![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F276462%2F315f056f71aa27f8e20b58c7844f2052%2Frandom_validation.png?generation=1607259248045328&alt=media)
